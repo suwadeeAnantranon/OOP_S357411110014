@@ -12,6 +12,7 @@ public class TestMethods {
 //      type 2
     public static void B(int x){
         System.out.println("Hello main"+x);
+
     }//B
 //      type 3
     public static int c(int x,int y){

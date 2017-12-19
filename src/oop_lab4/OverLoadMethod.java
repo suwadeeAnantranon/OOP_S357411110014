@@ -9,6 +9,7 @@ public class OverLoadMethod {
     }
 
     public static void A(int x){
+
         System.out.println ("Hello "+x);
     }
 
