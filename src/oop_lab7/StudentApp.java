@@ -36,5 +36,6 @@ public class StudentApp {
         s.setMajor(scanner.nextLine());
         System.out.print("Faculty: ");
         s.setFaculty(scanner.nextLine());
+        return s;
     }
 }//class

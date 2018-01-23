@@ -48,7 +48,7 @@ public class Student {
     }
 
     public void setMajor(String major) {
-        this.id = major;
+        this.major = major;
     }
 
     public String getFaculty() {
@@ -56,7 +56,7 @@ public class Student {
     }
 
     public void setFaculty(String faculty) {
-        this.id = faculty;
+        this.faculty = faculty;
     }
 
     public String getName() {
@@ -64,7 +64,7 @@ public class Student {
     }
 
     public void setName(String name) {
-        this.id = name;
+        this.name = name;
     }
 
 
