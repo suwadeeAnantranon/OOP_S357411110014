@@ -8,7 +8,7 @@ public abstract class mySuperCar {
         SuperCar superCar1 = new SuperCar();
         superCar1.setBrand("Toyata");
         superCar1.setColor("black");
-        superCar1.setSize("2500cc");
+        superCar1.setSize("2050cc");
         superCar1.setSpeed("250/ชม.");
         superCar1.setCountry("trang");
         System.out.println(superCar1.toString());
