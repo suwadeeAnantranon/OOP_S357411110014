@@ -14,7 +14,7 @@ public class StudentApp {
 
         Student student2 = new Student("222222222222","Management","Business Management","Girl Songkhla");
 
-
+        System.out.println(student2.toString());
 
 
     }//main

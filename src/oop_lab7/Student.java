@@ -36,8 +36,7 @@ public class Student {
         //getter and setter methods
 
     public String getID() {
-        return;
-        this.id;
+        return this.id;
     }
 
     public void setID(String id) {
