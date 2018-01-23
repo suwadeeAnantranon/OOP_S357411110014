@@ -16,11 +16,17 @@ public class StudentApp {
         Student student2 = new Student("222222222222","Management","Business Management","Girl Songkhla");
 
         System.out.println(student2.toString());
+        student2.setName("Girl Trang");
+        System.out.println(student2.toString());
 
         Student student3 = new Student();
-        student3 = inputData(student3);
+        //student3 = inputData(student3);
 
-        System.out.println(student3.toString());
+        //System.out.println(student3.toString());
+
+        System.out.println(student1.gender);
+        System.out.println(Student.gender);
+
 
 
     }//main

@@ -6,6 +6,7 @@ package oop_lab7;
 // 4.Name
 
 public class Student {
+
     @Override
     public String toString() {
         return "Student{" +
@@ -15,8 +16,8 @@ public class Student {
                 ", name='" + name + '\'' +
                 '}';
     }//toString
-
-    private String id;
+        public static String gender = "Male";
+        private String id;
         private String major;
         private String faculty;
         private String name;
