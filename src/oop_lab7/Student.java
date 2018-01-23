@@ -44,8 +44,7 @@ public class Student {
     }
 
     public String getMajor() {
-        return;
-        this.major;
+        return this.major;
     }
 
     public void setMajor(String major) {
@@ -53,8 +52,7 @@ public class Student {
     }
 
     public String getFaculty() {
-        return;
-        this.faculty;
+        return this.faculty;
     }
 
     public void setFaculty(String faculty) {
@@ -62,8 +60,7 @@ public class Student {
     }
 
     public String getName() {
-        return;
-        this.name;
+        return this.name;
     }
 
     public void setName(String name) {
