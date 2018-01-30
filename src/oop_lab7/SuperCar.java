@@ -1,82 +1,47 @@
 package oop_lab7;
-//SuperCar
-//1.car brand
-//2.car color
-//3.car enging size
-//4.max speed
-//5.country of origin
+
 public class SuperCar {
-    private String brand;
+    private String carBrand;
+    private String carColor;
+    private String engSize;
 
-    @Override
-    public String toString() {
+    public SuperCar (){}
+    public SuperCar (String b,String c,String e){
+        this.carBrand = b;
+        this.carColor = c;
+        this.engSize = e;
+    }
+
+    public String getSuperCarInfo() {
         return "SuperCar{" +
-                "brand='" + brand + '\'' +
-                ", color='" + color + '\'' +
-                ", size=" + size +
-                ", speed=" + speed +
-                ", country='" + country + '\'' +
+                "carBrand='" + carBrand + '\'' +
+                ", carColor='" + carColor + '\'' +
+                ", engSize='" + engSize + '\'' +
                 '}';
-    }//toString
-
-    private String color;
-    private String size;
-    private String speed;
-    private String country;
-    //Constructor
-    //Default Constructor
-    public SuperCar(){}
-    //create Constructor by owner
-    public SuperCar(String brand,String color,String size,String speed,String country ){
-        //assign data to class properties
-        this.brand=brand;
-        this.color=color;
-        this.size=size;
-        this.speed=speed;
-        this.country=country;
-
-    }
-    //getter and setter methods
-
-
-    public String getBrand() {
-        return brand;
     }
 
-    public void setBrand(String brand) {
-        this.brand = brand;
+
+    public String getCarBrand() {
+        return carBrand;
     }
 
-    public String getColor() {
-        return color;
+    public void setCarBrand(String carBrand) {
+        this.carBrand = carBrand;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public String getEngSize() {
+        return engSize;
     }
 
-    public String getSize() {
-        return size;
+    public void setEngSize(String engSize) {
+        this.engSize = engSize;
     }
 
-    public void setSize(String size) {
-        this.size = size;
+    public String getCarColor() {
+        return carColor;
     }
 
-    public String getSpeed() {
-        return speed;
+    public void setCarColor(String carColor) {
+        this.carColor = carColor;
     }
-
-    public void setSpeed(String speed) {
-        this.speed = speed;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
-    }
-}//class
-
+}
