@@ -26,9 +26,13 @@ public class Person {
     }
     //getter and setst mathods
 
-    public  String getPersonID()
+
+    public String getPersonID() {
+        return personID;
+    }
 
     public void setPersonID(String personID) {
+
         this.personID = personID;
     }
 
@@ -36,23 +40,28 @@ public class Person {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name)
+    {
         this.name = name;
     }
 
-    public String getGender() {
+    public String getGender()
+    {
         return gender;
     }
 
     public void setGender(String gender) {
+
         this.gender = gender;
     }
 
     public int getAge() {
+
         return age;
     }
 
     public void setAge(int age) {
+
         this.age = age;
     }
 }//class
